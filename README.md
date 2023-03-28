@@ -21,21 +21,12 @@ Installazione
 Per installare l'applicazione, seguire i seguenti passaggi:
 
 1.  Clonare il repository da GitHub:
-
-    bashCopy code
-
     `git clone https://github.com/username/gestione-spese.git`
 
 2.  Accedere alla cartella del progetto:
-
-    bashCopy code
-
     `cd gestione-spese`
 
 3.  Installare le dipendenze del frontend:
-
-    Copy code
-
     `npm install`
 
 4.  Creare il database MySQL per l'applicazione utilizzando il file "gestione_spese.sql" presente nella cartella "database".
@@ -43,21 +34,12 @@ Per installare l'applicazione, seguire i seguenti passaggi:
 5.  Configurare i dati di connessione al database nel file "config.php" presente nella cartella "backend".
 
 6.  Avviare il backend PHP utilizzando il comando:
-
-    Copy code
-
     `php -S localhost:8000 -t backend`
 
 7.  Avviare l'applicazione frontend utilizzando il comando:
-
-    Copy code
-
     `ng serve`
 
 8.  Accedere all'applicazione nel browser all'indirizzo:
-
-    arduinoCopy code
-
     `http://localhost:4200`
     
 Utilizzo
